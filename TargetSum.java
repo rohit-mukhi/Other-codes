@@ -8,7 +8,7 @@ public class TargetSum {
         int arr[] = {12, 6, 24, 18, 8, 10, 14, 16, 4};
         Result obj = new Result();
         obj = findTargetSum(target, arr);
-        if(obj.i == -1 || obj.j == -1) System.out.println("No elements add up to the target");
+        if(obj.i == -1 || obj.j == -1) System.out.println("No two elements add up to the target");
         else System.out.println("Elements at indices at " + obj.i + " and at " + obj.j + " add upto " + target);
     }
     
